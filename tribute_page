@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+    @media (prefers-reduced-motion: no-preference) {
+* {
+scroll-behavior: smooth;
+}
+* {
+  font-family: Helvetica;
+  color: #212529;
+  text-align: center;
+  background-color: #d6ccc2;
+}
+#image-div {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	align-content: center;
+  text-align: center; 
+}
+#image {
+  height: auto;
+  max-width: 100%;
+  display: block;
+}
+figcaption {
+  font-size: 14px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.quote {
+  font-size: 15px;
+}
+
+div > ul > li {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: left;
+}
+.quote {
+  margin-top: 30px;
+}
+a:hover {
+  color: #463f3a;
+}
+.time-line label {
+  padding-top: 10px;
+  margin-top: 10px;
+}
+    </style>
+    <title>Tribute Page: Katherine Johnson</title>
+  </head>
+  <body>
+    <header>
+        <h1 id="title">Katherine Johnson</h1>
+        <p class="intro">An American mathematician who calculated and analysed the flight paths of many spacecraft</p>
+    </header>
+    <main id="main">
+      <div class="img-div" id="img-div">
+        <img class="image" id="image" src="https://www.nasa.gov/sites/default/files/thumbnails/image/1-1966-l-06717_2.jpeg" />
+        <figcaption class="img-caption" id="img-caption"><em>NASA research mathematician Katherine Johnson is photographed at her desk at Langley Research Center in 1966.<br />
+Credits: NASA</em></figcaption>
+    </div>
+    <div class="time-line">
+      <label class="time-line" for="time-line"><b>Here is a time line of Katherine Johnson's life:</b></label>
+      <ul id="time-line">
+        <li class="time-line" id="time-line"><b>1918</b> - Born in White Sulphur Springs, WV</li>
+        <li class="time-line" id="time-line"><b>1931</b> - At age 13, she was attending the high school on the campus of historically black West Virginia State College</li>
+        <li class="time-line" id="time-line"><b>1937</b> - She graduated with highest honors and took a job teaching at a black public school in Virginia</li>
+        <li class="time-line" id="time-line"><b>1930</b> - Being one of three, she was one of the first black students offered a spot at West Virginia University. Leaving her teaching job, she enrolled in the graduate math program. At the end of the first session she left school to start a family with her first husband, James Goble</li>
+        <li class="time-line" id="time-line"><em>She returned to her teaching job when her daughters grew older</em></li>
+        <li><b>1953</b> - Hired by NACA. She spent the next couple years analyzing data from flight tests and worked on the investigation of a plane crash caused by wake turbulence</li>
+        <li class="time-line" id="time-line"><b>1956</b> - Her husband died of cancer</li>
+        <li class="time-line" id="time-line"><b>1957</b> - She provided the math for the 1958 document Notes on Space Technology</li>
+        <li class="time-line" id="time-line"><b>1958</b> - NACA became NASA</li> 
+        <li class="time-line" id="time-line"><b>1960</b> - Katherine coauthored a report laying out the equations on orbital spaceflight in which the landing position of a spacecraft is specified. It was the first time a woman in the Flight Research Division had received credit as an author of a research report.</li>
+        <li class="time-line" id="time-line"><b>1962</b> - NASA was preparing for the orbital spaceflight of John Glenn. Katherine was called upon to do the work that she would become most known for. Glenn asked engineers to “get the girl”. She ran the same numbers through the same equations programmed into the computer, by hand. He said, “If she says they’re good, then I’m ready to go.”  </li>
+        <li class="time-line" id="time-line"><b>1986</b> - She retired after 33 years at Langley</li>
+        <li class="time-line" id="time-line"><b>2015</b> - President Barack Obama awarded her the Presidential Medal of Freedom, America’s highest civilian honor.</li>
+        <li class="time-line" id="time-line"><b>2020</b> - She died on Feb. 24 at 101 years of age</li>
+      </ul>
+      </div>
+      <div class="footer">
+        <p class="quote"><em>“Take all the courses in your curriculum. Do the research. Ask questions. Find someone doing what you are interested in! Be curious!”<br /> - Katherine Johnson</em></p>
+        <p class="quote"><em>"She was an American hero and her pioneering legacy will never be forgotten."<br />
+        - NASA Administrator James Bridenstine</em></p>
+        <p id="tribute-info"><b>If you have time, you should read more about this amazingly brilliant woman on the <a target="_blank" id="tribute-link" value="nasa-link" href="https://www.nasa.gov/content/katherine-johnson-biography">NASA website</a>.</b></p>
+      </div>
+    </main>
+    </body>
+</html>
