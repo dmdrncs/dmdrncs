@@ -1,7 +1,7 @@
-- 👋 Hi, I’m @dmdrncs
-- 👀 I’m interested in full-stack development, data science, machine learning and ai
+- 👋 Hi, I’m Destiny
+- 👀 I’m interested in full-stack development, data science, game development, machine learning and ai
 - 🌱 I’m currently learning full stack dev and data science
-- 💞️ I’m looking to collaborate on related fields, I just want to learn 
+- 💞️ I’m looking to collaborate on related fields, I want to learn and build projects
 - 📫 How to reach me ...
 
 <!---
